@@ -327,9 +327,7 @@ export default function ReclaimedBrickLanding() {
                 <Recycle className="h-8 w-8 text-emerald-700" />
               </div>
               <h3 className="text-xl font-semibold text-slate-800">Eco-Friendly Solution</h3>
-              <p className="text-slate-600">
-                Sustainable China reclaimed red brick reducing waste and environmental impact
-              </p>
+              <p className="text-slate-600">Sustainable old red recycled bricks supporting green building projects</p>
             </div>
             <div className="text-center space-y-4 group">
               <div className="bg-gradient-to-br from-blue-100 to-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
