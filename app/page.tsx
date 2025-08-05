@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import ClientPage from "./ClientPage"
 
 export const metadata: Metadata = {
-  title: "China Reclaimed Red Brick Supplier | TAITONE BRICK - Handmade Heritage Bricks & Recycled Red Brick",
+  title: "China Reclaimed Red Brick Supplier | TAITONE BRICK - Premium Heritage Building Materials",
   description:
-    "Leading China brick supplier TAITONE BRICK offers premium reclaimed red brick, recycled red brick, used brick, and handmade antique red brick from China heritage buildings. Authentic handmade brick for heritage restoration projects worldwide with fast global shipping.",
+    "Leading China reclaimed red brick supplier TAITONE BRICK offers authentic old red recycled bricks, antique red brick, and heritage building materials from historical Chinese buildings. Fast global shipping, competitive wholesale prices.",
   keywords:
     "china reclaimed brick, reclaimed red brick, recycled red brick, used brick, antique red brick, china heritage brick, china brick supplier, taitone brick, handmade brick, china reclaimed red brick supplier, heritage building materials, authentic chinese brick, old red brick, vintage brick china, reclaimed building materials china, antique building brick, traditional chinese brick, weathered red brick, historical brick china, sustainable brick materials",
   openGraph: {
@@ -55,7 +55,6 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
       <ClientPage />
     </>
   )

@@ -1,29 +1,38 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://www.chinareclaimedbrick.com"
+  const currentDate = new Date()
+
   return [
     {
-      url: "https://www.chinareclaimedbrick.com",
-      lastModified: new Date(),
+      url: baseUrl,
+      lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: "https://www.chinareclaimedbrick.com/#products",
-      lastModified: new Date(),
+      url: `${baseUrl}/#products`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/#applications`,
+      lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://www.chinareclaimedbrick.com/#about",
-      lastModified: new Date(),
+      url: `${baseUrl}/#about`,
+      lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 0.7,
     },
     {
-      url: "https://www.chinareclaimedbrick.com/#contact",
-      lastModified: new Date(),
-      changeFrequency: "monthly",
+      url: `${baseUrl}/#contact`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
       priority: 0.9,
     },
   ]
