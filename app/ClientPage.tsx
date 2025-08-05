@@ -229,7 +229,6 @@ export default function ReclaimedBrickLanding() {
                 <Building2 className="h-8 w-8 text-white" />
               </div>
               <div>
-                <span className="text-xl font-bold text-slate-200">TAITONE BRICK</span>
                 <p className="text-xs text-slate-600">China Premium Reclaimed Brick Supplier</p>
               </div>
             </div>
@@ -328,7 +327,9 @@ export default function ReclaimedBrickLanding() {
                 <Recycle className="h-8 w-8 text-emerald-700" />
               </div>
               <h3 className="text-xl font-semibold text-slate-800">Eco-Friendly Solution</h3>
-              <p className="text-slate-600">Sustainable old red recycled bricks supporting green building projects</p>
+              <p className="text-slate-600">
+                Sustainable China reclaimed red brick reducing waste and environmental impact
+              </p>
             </div>
             <div className="text-center space-y-4 group">
               <div className="bg-gradient-to-br from-blue-100 to-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
