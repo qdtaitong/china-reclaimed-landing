@@ -1146,8 +1146,7 @@ export default function ReclaimedBrickLanding() {
                 </div>
               </div>
               <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
-                Leading supplier of authentic China reclaimed red brick, old red recycled bricks, and heritage building
-                materials from historical Chinese structures. Serving 50+ countries worldwide since 2010.
+                Leading supplier of authentic China reclaimed red brick, old red recycled bricks, and heritage building materials from historical Chinese structures. 
               </p>
             </div>
 
@@ -1173,12 +1172,7 @@ export default function ReclaimedBrickLanding() {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="#applications"
-                      className="text-slate-400 hover:text-amber-600 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-600 rounded-md px-1"
-                    >
-                      Applications
-                    </Link>
+                    
                   </li>
                   <li>
                     <Link
