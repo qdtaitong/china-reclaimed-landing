@@ -636,6 +636,65 @@ export default function ReclaimedBrickLanding() {
                       </div>
                     </div>
                   </div>
+
+                  <Separator className="bg-slate-200" />
+
+                  <div className="space-y-4">
+                    <div>
+                      <h3 className="font-semibold text-slate-900 mb-3">Follow Us on Social Media</h3>
+                      <p className="text-sm text-slate-600 mb-4">Stay updated with our latest products and projects</p>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-3">
+                      <Link
+                        href="https://www.instagram.com/taitonebrick"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white rounded-lg transition-colors text-sm"
+                      >
+                        <div className="w-4 h-4 bg-white rounded-sm flex items-center justify-center">
+                          <span className="text-pink-500 text-xs font-bold">📷</span>
+                        </div>
+                        <span>Instagram</span>
+                      </Link>
+
+                      <Link
+                        href="https://www.pinterest.com/taitonebrick"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white rounded-lg transition-colors text-sm"
+                      >
+                        <div className="w-4 h-4 bg-white rounded-sm flex items-center justify-center">
+                          <span className="text-red-500 text-xs font-bold">📌</span>
+                        </div>
+                        <span>Pinterest</span>
+                      </Link>
+
+                      <Link
+                        href="https://www.linkedin.com/company/taitone-brick"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-lg transition-colors text-sm"
+                      >
+                        <div className="w-4 h-4 bg-white rounded-sm flex items-center justify-center">
+                          <span className="text-blue-600 text-xs font-bold">💼</span>
+                        </div>
+                        <span>LinkedIn</span>
+                      </Link>
+
+                      <Link
+                        href="https://twitter.com/taitonebrick"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 px-3 py-2 bg-gradient-to-r from-gray-800 to-black hover:from-gray-900 hover:to-gray-800 text-white rounded-lg transition-colors text-sm"
+                      >
+                        <div className="w-4 h-4 bg-white rounded-sm flex items-center justify-center">
+                          <span className="text-black text-xs font-bold">𝕏</span>
+                        </div>
+                        <span>X (Twitter)</span>
+                      </Link>
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
             </div>
