@@ -1,0 +1,2 @@
+This is a test file to verify public directory is working.
+If you can see this, the public directory is accessible.
