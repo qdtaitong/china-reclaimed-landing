@@ -1000,7 +1000,7 @@ export default function ReclaimedBrickLanding() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-amber-600 to-red-700 hover:from-amber-700 hover:to-red-800 text-white font-semibold rounded-lg shadow-lg transition-all duration-200 hover:shadow-xl text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-amber-600"
                       >
-                        <span>www.chinareclaimedbrick.com</span>
+                        <span>www.chinaclaybrick.com</span>
                       </Link>
                       <p className="text-xs text-slate-600 mt-3">
                         Discover our full range of reclaimed building materials, technical specifications, project
@@ -1223,7 +1223,7 @@ export default function ReclaimedBrickLanding() {
                 <p className="text-slate-400">📧 taitone@chinaclaybrick.com</p>
                 <p className="text-slate-400">📞 +86-15318703536</p>
                 <p className="text-slate-400">📍 Tai'an, Shandong, China</p>
-                <p className="text-slate-400">🌐 www.chinareclaimedbrick.com</p>
+                <p className="text-slate-400">🌐 www.chinaclaybrick.com</p>
               </address>
             </div>
           </div>
